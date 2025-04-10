@@ -1,0 +1,17 @@
+.container-post {
+    padding: 25px 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#header {
+    min-height: 90px;
+}
+
+.noticia {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+}
