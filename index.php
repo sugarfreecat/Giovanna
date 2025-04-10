@@ -24,8 +24,8 @@
     <div class="container">
         <header id="header">
             <div class="menu">
-                <h2>Site de Notícias</h2>
-                <h2><a href="cadastrar.php">Cadastrar Notícias</a></h2>
+                <h2>Portal de Notícias</h2>
+                <h2><a href="cadastrar.php">Cadastrar Notícia</a></h2>
             </div>
 
             <div class="input-search">

@@ -10,17 +10,17 @@
 <body>
         <header id="header">
             <div class="menu">
-                <h2>Site de Notícias</h2>
+                <h2>Portal de Notícias</h2>
                 <h2><a href="index.php">Home</a></h2>
             </div>
     
-            <h1>Cadastrar Notícias</h1>
+            <h1>Cadastro de Notícias</h1>
         </header>
     
         <main id="main">
             <form class="form" action="cadastrar-action.php" method="POST">
                 <div class="input-search">
-                    <label for="noticia">Título da Noticia:</label>
+                    <label for="noticia">Título:</label>
                     <input type="text" name="noticia" id="noticia" >
                 </div>
     
@@ -35,7 +35,7 @@
                 </div>
 
                 <div class="input-search">
-                    <label for="conteudo">Conteúdo da notícia:</label>
+                    <label for="conteudo">Conteúdo:</label>
                     <textarea rows="5" name="conteudo" id="conteudo" ></textarea>
                     
                     <div class="input-search">

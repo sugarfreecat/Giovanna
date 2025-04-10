@@ -1,9 +1,13 @@
-body {
-    background: var(--linear) !important;
-}
+/*body {
+    background: var(--linear);
+}*/
 
 h1 {
     text-align: center;
+}
+
+h2 a {
+    font-size: 20px;
 }
 
 #header {
@@ -13,8 +17,8 @@ h1 {
 #main :where(.form, .input-search) {
     display: grid;
     gap: 7px;
-    margin: 0 150px;
-    color: var(--white);
+    margin: 0 250px;
+    color: var(--title);
     font-family: 'Lexend Deca', sans-serif;
     font-size: 16px;
 }
@@ -28,13 +32,23 @@ footer {
 
 .input-search :where(input, textarea) {
     padding: 20px;
+    background-color: #f9f9f9;
+    border: #cccccc 1px solid;
+    border-radius: 5px;
+    color: var(--text)
 }
 
 input[type="submit"] {
     cursor: pointer;
     border: 1px solid transparent;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    color: var(--white);
+    background-color: var(--red);
+    transition: 0.3s;
 }
 
 input[type="submit"]:hover {
     border: 1px solid var(--white);
+    background-color: #740000;
 }
