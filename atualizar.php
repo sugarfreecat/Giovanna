@@ -25,5 +25,14 @@
             ";
             header("Location: index.php");
         }
+        else{
+            echo"
+                <script>
+                    alert('Erro ao atualizar noticia!');
+                    window.location.href = 'index.php';
+                </script> 
+            ";
+            header("Location: index.php");
+        }
     }
 ?>
